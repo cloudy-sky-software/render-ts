@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudyskysoftware/pulumi-render@^0.0.36":
-  version "0.0.36"
-  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.0.36.tgz#b965f7edc21439ea2264666b86f9c8acbd94279a"
-  integrity sha512-tGWlg8hj7nvzQ8+6P042R8y9ugoEHBgX7RshdjZ3UcB0BtDVw+8mUebpmrIK09h3mvuF4dkMXwqWKy2LdFb29w==
+"@cloudyskysoftware/pulumi-render@^0.0.37":
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.0.37.tgz#ab6cb5418d1d162b6d0f269a8ce68134358dc09d"
+  integrity sha512-CbgQITO/Qej6+wdVH/GFvJg9lrrK4VCNOIEgkhIYhp6UL4I0lPJ5hhO6GjNw8bGxKy1AyaXcUE+rtEGINOCa/A==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
     "@types/glob" "^5.0.35"
