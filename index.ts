@@ -31,12 +31,6 @@ const webServiceDetails: services.WebServiceServiceDetailsArgs = {
     env: "node",
     plan: "starter",
     region: "oregon",
-    openPorts: [
-        {
-            port,
-            protocol: "TCP",
-        },
-    ],
     envSpecificDetails: {
         buildCommand: "yarn",
         startCommand: "node app.js",
