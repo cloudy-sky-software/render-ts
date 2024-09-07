@@ -17,7 +17,7 @@ const staticSiteDetails: servicesInputs.StaticSiteDetailsCreateArgs = {
     publishPath: "public",
 };
 
-const staticSite = new render.services.Service("staticsite", {
+const staticSite = new render.services.StaticSite("staticsite", {
     name: "My custom static site",
     ownerId,
     repo: "https://github.com/cloudy-sky-software/test-static-site",
@@ -37,9 +37,23 @@ const webServiceDetails: servicesInputs.WebServiceDetailsCreateArgs = {
         buildCommand: "yarn",
         startCommand: "node app.js",
     },
+    runtime: "node",
 };
 
-const webService = new render.services.Service("webservice", {
+const db = new render.postgres.Postgres("db", {
+    ownerId,
+    version: "16",
+    databaseUser: "myuser",
+    databaseName: "test",
+    plan: "basic_256mb",
+    diskSizeGB: 1,
+});
+
+export const connectionInfo = render.postgres.getPostgresConnectionInfoOutput({
+    postgresId: db.id,
+});
+
+const webService = new render.services.WebService("webservice", {
     name: "An Express.js web service",
     ownerId,
     repo: "https://github.com/render-examples/express-hello-world",
@@ -49,16 +63,16 @@ const webService = new render.services.Service("webservice", {
             key: "PORT",
             value: port,
         },
+        {
+            key: "DB_URL",
+            value: (<any>connectionInfo).internalConnectionString,
+        },
     ],
     branch: "master",
     serviceDetails: webServiceDetails,
     type: "web_service",
 });
 
-export const url = staticSite.serviceDetails.apply(
-    (s) => s as servicesOutputs.StaticSiteDetails
-).url;
+export const url = staticSite.serviceDetails.apply((s) => s?.url);
 
-export const webServiceUrl = webService.serviceDetails.apply(
-    (s) => s as servicesOutputs.WebServiceDetails
-).url;
+export const webServiceUrl = webService.serviceDetails.apply((s) => s?.url);
