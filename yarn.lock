@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@cloudyskysoftware/pulumi-render@^0.3.2":
+"@cloudyskysoftware/pulumi-render@^0.3.5":
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.3.8.tgz#13230627bd4241d18270691644a5e6df98934b14"
   integrity sha512-LjVyrD22ESdc/2XbTxBvU9mvkerIhpulDR3ZfyjnGGQB0lyuxOQUxKwN1YrYfhimaNlrcATOLzFyZl9UUErU9g==
@@ -522,10 +522,12 @@
   dependencies:
     undici-types "~6.19.2"
 
-"@types/node@^14":
-  version "14.18.63"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.63.tgz#1788fa8da838dbb5f9ea994b834278205db6ca2b"
-  integrity sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==
+"@types/node@20":
+  version "20.16.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.16.5.tgz#d43c7f973b32ffdf9aa7bd4f80e1072310fd7a53"
+  integrity sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==
+  dependencies:
+    undici-types "~6.19.2"
 
 "@types/responselike@^1.0.0":
   version "1.0.3"
@@ -1497,6 +1499,11 @@ postcss-selector-parser@^6.0.10:
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
+
+prettier@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
+  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
 
 proc-log@^4.0.0, proc-log@^4.1.0, proc-log@^4.2.0:
   version "4.2.0"
