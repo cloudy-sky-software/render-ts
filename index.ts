@@ -1,8 +1,7 @@
 import * as pulumi from "@pulumi/pulumi";
 import * as render from "@cloudyskysoftware/pulumi-render";
 
-import { services as servicesInputs } from "@cloudyskysoftware/pulumi-render/types/input";
-import { services as servicesOutputs } from "@cloudyskysoftware/pulumi-render/types/output";
+import type { services as servicesInputs } from "@cloudyskysoftware/pulumi-render/types/input";
 
 const ownerId = pulumi
     .output(render.owners.listOwners())
