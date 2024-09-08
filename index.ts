@@ -65,7 +65,7 @@ const webService = new render.services.WebService("webservice", {
         },
         {
             key: "DB_URL",
-            value: (<any>connectionInfo).internalConnectionString,
+            value: connectionInfo.internalConnectionString,
         },
     ],
     branch: "master",
