@@ -57,6 +57,13 @@ const webService = new render.services.WebService("webservice", {
     ownerId,
     repo: "https://github.com/render-examples/express-hello-world",
     autoDeploy: "yes",
+    branch: "master",
+    serviceDetails: webServiceDetails,
+    type: "web_service",
+});
+
+new render.services.EnvVarsForService("webServiceEnvVars", {
+    serviceId: webService.id,
     envVars: [
         {
             key: "PORT",
@@ -67,9 +74,6 @@ const webService = new render.services.WebService("webservice", {
             value: connectionInfo.internalConnectionString,
         },
     ],
-    branch: "master",
-    serviceDetails: webServiceDetails,
-    type: "web_service",
 });
 
 export const url = staticSite.serviceDetails.apply((s) => s?.url);
