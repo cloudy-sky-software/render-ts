@@ -5,7 +5,7 @@
         "prettier": "^3.3.3"
     },
     "dependencies": {
-        "@cloudyskysoftware/pulumi-render": "^0.3.8",
-        "@pulumi/pulumi": "^3.131.0"
+        "@cloudyskysoftware/pulumi-render": "^0.3.12",
+        "@pulumi/pulumi": "^3.135.1"
     }
 }
