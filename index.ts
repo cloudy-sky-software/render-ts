@@ -3,8 +3,8 @@ import * as render from "@cloudyskysoftware/pulumi-render";
 
 import type { services as servicesInputs } from "@cloudyskysoftware/pulumi-render/types/input";
 
-const ownerId = pulumi
-    .output(render.owners.listOwners())
+const ownerId = render.owners
+    .listOwnersOutput()
     .apply(
         (result) =>
             result.items.filter(
