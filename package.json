@@ -1,7 +1,7 @@
 {
     "name": "render-ts",
     "devDependencies": {
-        "@types/node": "20",
+        "@types/node": "22",
         "prettier": "^3.3.3"
     },
     "dependencies": {
