@@ -377,9 +377,9 @@
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
 "@pulumi/pulumi@^3.134.1", "@pulumi/pulumi@^3.135.1":
-  version "3.146.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.146.0.tgz#4845bf0e23f99f9e6dfc455950a816302a0dfe89"
-  integrity sha512-DVj7nhjg+R9E4t7XLAFnRiDziVTQRDpBDonXDsNeaSE0KZQmOsP1n+PSFY/Wkcgh3Gblww/EtVfGNMNHqMD1Zg==
+  version "3.147.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.147.0.tgz#b118b353fadfe9ee0705d81d38f772caa9bd1b2b"
+  integrity sha512-5tBGauFC6rAiB5I8Ug6kHBNB1YNmLANT1yy2pXwyMMWXmFc1++sYrZ2QDyVf0cJVtXdFhqw1kw/CxdV4YCHi0Q==
   dependencies:
     "@grpc/grpc-js" "^1.10.1"
     "@logdna/tail-file" "^2.0.6"
@@ -820,9 +820,9 @@ exponential-backoff@^3.1.1:
   integrity sha512-dX7e/LHVJ6W3DE1MHWi9S1EYzDESENfLrYohG2G++ovZrYOkm4Knwa0mc1cn84xJOR4KEU0WSchhLbd0UklbHw==
 
 fdir@^6.1.1:
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.4.2.tgz#ddaa7ce1831b161bc3657bb99cb36e1622702689"
-  integrity sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/fdir/-/fdir-6.4.3.tgz#011cdacf837eca9b811c89dbb902df714273db72"
+  integrity sha512-PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==
 
 find-up@^6.3.0:
   version "6.3.0"
