@@ -10,9 +10,9 @@
     "@pulumi/pulumi" "^3.134.1"
 
 "@grpc/grpc-js@^1.10.1":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.13.0.tgz#69c229eacb77f3468afa9d375c23dc9b694d1af9"
-  integrity sha512-pMuxInZjUnUkgMT2QLZclRqwk2ykJbIU05aZgPgJYXEpN9+2I7z7aNwcjWZSycRPl232FfhPszyBFJyOxTHNog==
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.13.1.tgz#0fdd678dddc0d64d958ba7b420652fe62180ed50"
+  integrity sha512-z5nNuIs75S73ZULjPDe5QCNTiCv7FyBZXEVWOyAHtcebnuJf0g1SuueI3U1/z/KK39XyAQRUC+C9ZQJOtgHynA==
   dependencies:
     "@grpc/proto-loader" "^0.7.13"
     "@js-sdsl/ordered-map" "^4.4.2"
@@ -377,9 +377,9 @@
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
 "@pulumi/pulumi@^3.134.1", "@pulumi/pulumi@^3.135.1":
-  version "3.157.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.157.0.tgz#b935b90a43945da2e8fbc4e0c5cfdcccf2ef9c74"
-  integrity sha512-28XN8M8XLnSgimWYX2TECTlReUifrdxiRsai1rBlmGyMnN+n90bgWSibLqRwOb/AKdDilwfHiY6JrV5/SuNjOQ==
+  version "3.158.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.158.0.tgz#8ceeb3b226c044533fe4f40375f8678b86bb5a17"
+  integrity sha512-KfKw0gKtCd2pEwBvnn/9X22JvXdB42zQ6QRq5vOC8JTbTaJU5FM5/e2zJFtem/JJfJYr7oxS9suZaWrUA+DYig==
   dependencies:
     "@grpc/grpc-js" "^1.10.1"
     "@logdna/tail-file" "^2.0.6"
@@ -1963,6 +1963,6 @@ yargs@^17.7.2:
     yargs-parser "^21.1.1"
 
 yocto-queue@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.0.tgz#4a29a93e7591328fa31768701e6ea66962401f79"
-  integrity sha512-KHBC7z61OJeaMGnF3wqNZj+GGNXOyypZviiKpQeiHirG5Ib1ImwcLBH70rbMSkKfSmUNBsdf2PwaEJtKvgmkNw==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
+  integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
