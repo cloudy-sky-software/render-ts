@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@cloudyskysoftware/pulumi-render@^0.3.12":
-  version "0.3.12"
-  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.3.12.tgz#f4b1035def5128602cddba68aa28bed721d1446c"
-  integrity sha512-bY483xrP39qdtd8N2iWXTJyiHbg+k0HS24vPJCWqGbtJN8uYRHbKbRI7pXHr8XND+MejSEId22i+cxP2jVBIpA==
+"@cloudyskysoftware/pulumi-render@^0.4.0":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.4.2.tgz#03b41aed642d193fc9c36e9420bfeb075efac8ca"
+  integrity sha512-dLo2bHA7JHmmtLur1JdUlD10KKOIgxG0Fbbg26FfpLqCR3oq5nvgv21YKmZU8DjAKf6m7G7xsNdlTyZXPDtCUA==
   dependencies:
-    "@pulumi/pulumi" "^3.134.1"
+    "@pulumi/pulumi" "^3.142.0"
 
 "@grpc/grpc-js@^1.10.1":
   version "1.13.2"
@@ -376,7 +376,7 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
-"@pulumi/pulumi@^3.134.1", "@pulumi/pulumi@^3.135.1":
+"@pulumi/pulumi@^3.135.1", "@pulumi/pulumi@^3.142.0":
   version "3.160.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.160.0.tgz#0d7f4ee6c702b97b5c75ccf131db4e284b5303ce"
   integrity sha512-ZQtryqkvJxuugra2t4a5ROmKFEIazSbpvC/W2Qv2Gmw7UPDxtKiYLJQVX/ZQg06Lu3MfoJ1z3S+gvt71R5OYHw==
