@@ -3,9 +3,9 @@
 
 
 "@cloudyskysoftware/pulumi-render@^0.4.0":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.4.2.tgz#03b41aed642d193fc9c36e9420bfeb075efac8ca"
-  integrity sha512-dLo2bHA7JHmmtLur1JdUlD10KKOIgxG0Fbbg26FfpLqCR3oq5nvgv21YKmZU8DjAKf6m7G7xsNdlTyZXPDtCUA==
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-render/-/pulumi-render-0.4.3.tgz#4fdbd6ae4e843a957c893d690b1a1b94f2c838c3"
+  integrity sha512-Bcn4g322j2WyapmuRNZbPsq/aFnQSOpbMiv+hlg5b7BOo47ImV7OX0E+GfNiKVFYfxnZ3SeCZ1/9YMY5D4N16A==
   dependencies:
     "@pulumi/pulumi" "^3.142.0"
 
