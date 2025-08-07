@@ -377,9 +377,9 @@
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
 "@pulumi/pulumi@^3.135.1", "@pulumi/pulumi@^3.142.0":
-  version "3.186.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.186.0.tgz#d2c66a1d0c79ec156ed49a0026e03365f819a27a"
-  integrity sha512-2BHNlqKm2qhViVA2U3Ca1xsux/2hEmUd85AMAnoDY9bA0ut82JNFLwsI5Bl9AABnOHeUdxSm0NDbD+/T5VxOEQ==
+  version "3.187.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.187.0.tgz#446fede9012128a7f29a958ac8fd3df2ccc8207a"
+  integrity sha512-CkyvSdP58FpbLaa/ccLD2B9ZvoriT88nYkCkjbv+omPRlLAtClfyaFQUkXMrnYw8XO8oGBq/iR5i7AixH4yvng==
   dependencies:
     "@grpc/grpc-js" "^1.10.1"
     "@logdna/tail-file" "^2.0.6"
@@ -509,11 +509,11 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@>=13.7.0":
-  version "24.1.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.1.0.tgz#0993f7dc31ab5cc402d112315b463e383d68a49c"
-  integrity sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==
+  version "24.2.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.2.0.tgz#cde712f88c5190006d6b069232582ecd1f94a760"
+  integrity sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==
   dependencies:
-    undici-types "~7.8.0"
+    undici-types "~7.10.0"
 
 "@types/node@22":
   version "22.16.5"
@@ -1724,9 +1724,9 @@ spdx-expression-parse@^3.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.21"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.21.tgz#6d6e980c9df2b6fc905343a3b2d702a6239536c3"
-  integrity sha512-Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==
+  version "3.0.22"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.22.tgz#abf5a08a6f5d7279559b669f47f0a43e8f3464ef"
+  integrity sha512-4PRT4nh1EImPbt2jASOKHX7PB7I+e4IWNLvkKFDxNhJlfjbYlleYQh285Z/3mPTHSAK/AvdMmw5BNNuYH8ShgQ==
 
 sprintf-js@^1.1.3:
   version "1.1.3"
@@ -1816,9 +1816,9 @@ tar@^6.1.11, tar@^6.2.1:
     yallist "^4.0.0"
 
 tmp@^0.2.1:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.2.3.tgz#eb783cc22bc1e8bebd0671476d46ea4eb32a79ae"
-  integrity sha512-nZD7m9iCPC5g0pYmcaxogYKggSfLsdxl8of3Q/oIbqCqLLIO9IAF0GWjX1z9NZRHPiXv8Wex4yDCaZsgEw0Y8w==
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.2.4.tgz#c6db987a2ccc97f812f17137b36af2b6521b0d13"
+  integrity sha512-UdiSoX6ypifLmrfQ/XfiawN6hkjSBpCjhKxxZcWlUUmoXLaCKQU0bx4HF/tdDK2uzRuchf1txGvrWBzYREssoQ==
 
 treeverse@^3.0.0:
   version "3.0.0"
@@ -1839,10 +1839,10 @@ undici-types@~6.21.0:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
   integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
-undici-types@~7.8.0:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.8.0.tgz#de00b85b710c54122e44fbfd911f8d70174cd294"
-  integrity sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==
+undici-types@~7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.10.0.tgz#4ac2e058ce56b462b056e629cc6a02393d3ff350"
+  integrity sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==
 
 unique-filename@^3.0.0:
   version "3.0.0"
