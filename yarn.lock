@@ -216,9 +216,9 @@
     "@opentelemetry/api" "^1.3.0"
 
 "@opentelemetry/api@^1.3.0", "@opentelemetry/api@^1.9":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.9.0.tgz#d03eba68273dc0f7509e2a3d5cba21eae10379fe"
-  integrity sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.9.1.tgz#c1b0346de336ba55af2d5a7970882037baedec05"
+  integrity sha512-gLyJlPHPZYdAk1JENA9LeHejZe1Ti77/pTeFm/nMXmQH/HFZlcS/O2XJB+L8fkbrNSqhdtlvjBVjxwUYanNH5Q==
 
 "@opentelemetry/context-async-hooks@1.30.1":
   version "1.30.1"
@@ -425,9 +425,9 @@
   integrity sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==
 
 "@pulumi/pulumi@^3.135.1", "@pulumi/pulumi@^3.142.0":
-  version "3.228.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.228.0.tgz#be4edbc2285349cd60062d9025eef793ea586776"
-  integrity sha512-yAwieapB/Huro8/psool1sKhe2rGT80GTnEFLDWbKPHTMo6oSegGb6aYg+bzPuC3vgBOn2dnHkobSuwbBhQ7gQ==
+  version "3.229.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.229.0.tgz#c21ae9bcb0db33e17a19b16fd875065f3923b0af"
+  integrity sha512-SoGAonHOrGP/NQQivq3gMz0nlebVUYOf6TgpsPHqvFARsHz4JIR+/fpFm/8JW+Ev5o6tvb6g04a+STmpdxoaOg==
   dependencies:
     "@grpc/grpc-js" "^1.10.1"
     "@logdna/tail-file" "^2.0.6"
@@ -452,7 +452,7 @@
     minimist "^1.2.6"
     normalize-package-data "^6.0.0"
     package-directory "^8.1.0"
-    picomatch "^3.0.1"
+    picomatch "^4.0.0"
     require-from-string "^2.0.1"
     semver "^7.5.2"
     source-map-support "^0.5.6"
@@ -648,7 +648,7 @@ bin-links@^6.0.0:
     read-cmd-shim "^6.0.0"
     write-file-atomic "^7.0.0"
 
-brace-expansion@^5.0.2:
+brace-expansion@^5.0.5:
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-5.0.5.tgz#dcc3a37116b79f3e1b46db994ced5d570e930fdb"
   integrity sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ==
@@ -1127,11 +1127,11 @@ mimic-response@^3.1.0:
   integrity sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==
 
 minimatch@^10.0.3, minimatch@^10.1.1, minimatch@^10.2.2:
-  version "10.2.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.4.tgz#465b3accbd0218b8281f5301e27cedc697f96fde"
-  integrity sha512-oRjTw/97aTBN0RHbYCdtF1MQfvusSIBQM0IZEgzl6426+8jSC0nF1a/GmnVLpfB9yyr6g6FTqWqiZVbxrtaCIg==
+  version "10.2.5"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.5.tgz#bd48687a0be38ed2961399105600f832095861d1"
+  integrity sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==
   dependencies:
-    brace-expansion "^5.0.2"
+    brace-expansion "^5.0.5"
 
 minimist@^1.2.6:
   version "1.2.8"
@@ -1157,9 +1157,9 @@ minipass-fetch@^5.0.0:
     iconv-lite "^0.7.2"
 
 minipass-flush@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/minipass-flush/-/minipass-flush-1.0.5.tgz#82e7135d7e89a50ffe64610a787953c4c4cbb373"
-  integrity sha512-JmQSYYpPUqX5Jyn1mXaRwOda1uQ8HP5KAT/oDSLCzt1BYRhQU0/hDtsB1ufZfEEzMZ9aAVmsBw8+FWsIXlClWw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/minipass-flush/-/minipass-flush-1.0.7.tgz#145c383d5ae294b36030aa80d4e872d08bebcb73"
+  integrity sha512-TbqTz9cUwWyHS2Dy89P3ocAGUGxKjjLuR9z8w4WUTGAVgEj17/4nhgo2Du56i0Fm3Pm30g4iA8Lcqctc76jCzA==
   dependencies:
     minipass "^3.0.0"
 
@@ -1397,12 +1397,7 @@ path-scurry@^2.0.2:
     lru-cache "^11.0.0"
     minipass "^7.1.2"
 
-picomatch@^3.0.1:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-3.0.2.tgz#8f543c114ddc037eab6b10fbd5a66cc8a51a02bc"
-  integrity sha512-cfDHL6LStTEKlNilboNtobT/kEa30PtAf2Q1OgszfrG/rpVl1xaFWT9ktfkS306GmHgmnad1Sw4wabhlvFtsTw==
-
-picomatch@^4.0.3:
+picomatch@^4.0.0, picomatch@^4.0.3:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.4.tgz#fd6f5e00a143086e074dffe4c924b8fb293b0589"
   integrity sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==
